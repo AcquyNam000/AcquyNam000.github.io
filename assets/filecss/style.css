@@ -1,0 +1,157 @@
+body
+{
+    background-image: url(775140.gif);
+    background-size: cover;
+    font-size: 18px;
+    position: relative;
+}
+
+
+
+.header_container
+{
+    background-color: pink;
+    padding: 30px;
+    /* width: 98% ; */
+    margin: 50px auto !important;
+    border-radius: 25px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    border: solid 3px black;
+
+
+    
+}
+
+img.img_avatar
+{  
+    border: solid 3px black;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 4px 5px #ccc;
+    min-width: 100px;
+    max-width: 200px; 
+}
+
+.ttName , .lbcc
+{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.358);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ttName
+{
+    color: black;
+}
+
+.iconcc > i:hover
+{
+    font-size: 50px;
+}
+
+.naga
+{
+    margin: 0px auto;
+    position: relative;
+    height: 100px;
+    /* top:0px; */
+    /* text-align: center; */
+    bottom: 0px;
+    margin-top: 0px;
+    background-color: pink;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.467);
+}
+
+.container_naga
+{
+   text-align: center;
+    /* background: rgb(245, 245, 245); */
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    text-align: center;
+    justify-content:space-evenly;
+    
+    
+}
+
+.item_nav
+{
+    padding: 12px 6px;
+}
+
+.item_nav:nth-child(1)
+{
+    border-radius: 25px 0px 0px 0px;
+}
+
+
+.item_nav:nth-child(3)
+{
+    border-radius: 0px 25px 0px 0px;
+}
+
+.item_nav > a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: none;
+    /* padding: 10px; */
+}
+
+.item_nav:hover
+{
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.item_nav:nth-child(1):hover
+{
+    border-radius: 25px 0px 0px 0px;
+} 
+
+.item_nav:nth-child(3):hover
+{
+    border-radius: 0px 25px 0px 0px;
+} 
+
+
+
+
+.content
+{
+    background-color: pink;
+    margin-top: 2px;
+    padding: 50px;
+    justify-content: center;
+    /* text-align: left; */
+    text-align: justify;
+    padding: 30px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.467);
+    border-radius: 0px 0px 25px 25px;
+
+}
+
+.open
+{
+    background-color: rgb(249, 13, 91);
+    
+    /* cursor: pointer; */
+}
+
+.right_cc
+{
+    text-align: right;
+}
+
+
+.center_cc
+{
+    text-align: center;
+}
+
